@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,QAAS;EACP,gBAAgB,EAAE,KAAK",
+"mappings": "AAAA,KAAM;EACJ,gBAAgB,EAAE,KAAK",
 "sources": ["overview.component.scss"],
 "names": [],
 "file": "overview.component.css"

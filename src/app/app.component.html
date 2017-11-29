@@ -4,13 +4,13 @@
   </section>
   <section class="nav">
     <ul>
-      <li class="selected"><a href="#"><span><i class="fa fa-home" aria-hidden="true"></i></span>Home</a></li>
-      <li><a href="#"><span><i class="fa fa-user" aria-hidden="true"></i></span>Members</a></li>
-      <li><a href="#"><span><i class="fa fa-usd" aria-hidden="true"></i></span>Payments</a></li>
-      <li><a href="#"><span><i class="fa fa-list" aria-hidden="true"></i></span>Attendance</a></li>
-      <li><a href="#"><span><i class="fa fa-bar-chart" aria-hidden="true"></i></span>Statistics</a></li>
-      <li><a href="#"><span><i class="fa fa-lock" aria-hidden="true"></i></span>Administration</a></li>
-      <li><a href="#"><span><i class="fa fa-wrench" aria-hidden="true"></i></span>Settings</a></li>
+      <li class="selected"><a routerLink="/home"><span><i class="fa fa-home" aria-hidden="true"></i></span>Home</a></li>
+      <li><a routerLink="/members"><span><i class="fa fa-user" aria-hidden="true"></i></span>Members</a></li>
+      <li><a routerLink="/payments"><span><i class="fa fa-usd" aria-hidden="true"></i></span>Payments</a></li>
+      <li><a routerLink="/attendance"><span><i class="fa fa-list" aria-hidden="true"></i></span>Attendance</a></li>
+      <li><a routerLink="/statistics"><span><i class="fa fa-bar-chart" aria-hidden="true"></i></span>Statistics</a></li>
+      <li><a routerLink="/administration"><span><i class="fa fa-lock" aria-hidden="true"></i></span>Administration</a></li>
+      <li><a routerLink="/settings"><span><i class="fa fa-wrench" aria-hidden="true"></i></span>Settings</a></li>
     </ul>
   </section>
   <section class="brand-image">
@@ -38,5 +38,5 @@
 </div>
 
 <div class="content">
-  <app-overview></app-overview>
+  <router-outlet></router-outlet>
 </div>

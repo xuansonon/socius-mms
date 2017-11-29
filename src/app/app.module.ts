@@ -10,6 +10,7 @@ import { AttendanceComponent } from './attendance/attendance.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { SettingsComponent } from './settings/settings.component';
 import { AdministrationComponent } from './administration/administration.component';
+import { AppRoutingModule } from './/app-routing.module';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { AdministrationComponent } from './administration/administration.compone
     AdministrationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

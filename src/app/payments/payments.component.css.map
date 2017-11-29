@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,QAAS;EACP,gBAAgB,EAAE,KAAK",
+"sources": ["payments.component.scss"],
+"names": [],
+"file": "payments.component.css"
+}
