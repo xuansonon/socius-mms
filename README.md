@@ -1,6 +1,8 @@
 # Socius
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.4.
+<img src="https://raw.githubusercontent.com/xuansonon/socius-mms/master/src/assets/img/logo.png">
+
+Socius is an open-sourced membership management system developed with Anguar 4 and Bootstrap frameworks.
 
 ## Development server
 
